@@ -1,6 +1,6 @@
 # Aquabot
-Automatic Motor Controller Based On Water Level
-This is an automated water tank controller.
+Automatic Motor Controller Based On Water Level /n
+This is an automated water tank controller./n
 • The machine depends on Reservoir,Tap which represent the water inlet and water usage respectively.
 • Whenever the water level is below 20 percent the “Pump” will automatically turn on based on whether the water is
 coming from “Reservoir”.
