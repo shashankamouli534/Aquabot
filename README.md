@@ -1,7 +1,5 @@
 # Aquabot
 Automatic Motor Controller Based On Water Level.
-This is an automated water tank controller.
-The machine depends on Reservoir,Tap which represent the water inlet and water usage respectively.
-Whenever the water level is below 20 percent the “Pump” will automatically turn on based on whether the water is
-coming from “Reservoir”.
-When the water level reaches 100 percent the pump turns off all while showing the ”Percentage” to the residents
+We designed a project which automatically turns the pump on and off also showing the residents the percentage of water still left in the tank. Whenever the water level is below 20% the “Pump” will automatically turn on based on whether the water is coming from “Reservoir” (which is the water input from government or underground). As soon as the water level reaches 100% the pump will automatically turn off saving water wastage.
+There is also a “Tap” option which will show the usage of water in household as in when the tap is on the water level will decrease. The assumption made here is the rate of flow if water is same in filling and using. The project also shows the “Percentage” of water still in the tank.
+To make this possible we need a “4-bit binary up-down counter” with four clears and four presets. The counter is connected to a “JK-Flip flop” in such a way the “J and K” depend on the output of the 4-bit binary up-down. The output of the JK-Flip Flop is connected to the 4-bit binary up-down as “Mode” and “Enable” making the project a memory in memory.
